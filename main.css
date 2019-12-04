@@ -1,0 +1,30 @@
+@font-face {
+    font-family: font;
+    src: url("fonts/font.woff") format("woff"), url("fonts/font.woff2") format("woff2"); 
+}
+
+h1.h1{
+    text-align: center;
+    font-size: 300%;
+    color: gold;
+    margin-top: 10pt;
+}
+body{
+    background: url(images/sky.jpg);
+    font-family: font;
+    margin: 0;
+}
+div.block{
+    border: 3px solid black;
+    height: 593pt ;
+    width: 150pt ;
+}
+p,a.int{
+    text-align: center;
+    font-size: 200%;
+    margin-top: 2pt;
+}
+hr.intt{
+    border: 2px solid black;
+    margin-top: 0;
+}
